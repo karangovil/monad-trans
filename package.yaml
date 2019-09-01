@@ -38,6 +38,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - monad-trans
+    - containers
 
 tests:
   monad-trans-test:
